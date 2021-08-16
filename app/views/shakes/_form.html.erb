@@ -1,0 +1,5 @@
+<%= simple_form_for(@shake) do |form| %>
+  <%= form.input(:name) %>
+  <%= form.association(:ingredients, collection: Ingredient.ordered, as: :check_boxes) %>
+  <%= form.submit %>
+<% end %>

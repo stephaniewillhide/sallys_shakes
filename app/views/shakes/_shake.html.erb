@@ -1,0 +1,5 @@
+<tr>
+  <td class="px-3"><%= shake.name %></td>
+  <td class="px-3"><%= shake.ingredients.pluck(:name).join(", ") %></td>
+  <td class="px-3"><%= shake.calories_per_shake %></td>
+</tr>

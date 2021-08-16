@@ -1,3 +1,11 @@
 // Place all the styles related to the Shakes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.simple_form, input {
+  margin: 10px 0;
+}
+
+.simple_form, label {
+  padding-right: 10px;
+}
