@@ -16,7 +16,7 @@ end
 
 [
   ["Strawberry", ["Half and Half", "Ice Cream", "Strawberries"]],
-  ["Straberry Banana", ["Banana", "Half and Half", "Ice Cream", "Strawberries"]],
+  ["Strawberry Banana", ["Banana", "Half and Half", "Ice Cream", "Strawberries"]],
   ["Peanut Butter Banana", ["Banana", "Half and Half", "Ice Cream", "Peanut Butter"]],
   ["Buckeye Blitz", ["Banana", "Half and Half", "Hershey's Syrup", "Ice Cream", "Oreos", "Peanut Butter"]],
 ].each do |name, ingredient_names = []|
