@@ -2,10 +2,64 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.bg-light-pink {
+  background-color: #F7D6D0;
+}
+
+.bg-cream {
+  background-color: #FFA3B8;
+}
+
+.bg-fuchsia {
+  background-color: #FC3C80;
+}
+
+.bg-gray {
+  background-color: #B9B7BD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Capriola', sans-serif;
+}
+
+.nav-logo {
+  color: #8B3B4B;
+}
+
+.text-gray {
+  color: #B9B7BD;
+}
+
 .simple_form, input {
   margin: 10px 0;
 }
 
 .simple_form, label {
-  padding-right: 10px;
+  padding-right: 16px;
+}
+
+.simple_form, input {
+  margin-right: 6px;
+}
+
+.btn {
+  &.btn-light-pink {
+    background-color: #F7D6D0;
+  }
+
+  &.btn-cream {
+    background-color: #FFA3B8;
+  }
+
+  &.btn-fuchsia {
+    background-color: #FC3C80;
+  }
+
+  &.btn-gray {
+    background-color: #B9B7BD;
+  }
+}
+
+a {
+  color: #469EA0;
 }
