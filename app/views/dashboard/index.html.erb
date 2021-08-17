@@ -1,5 +1,7 @@
+<% email = current_user.present? ? current_user.email : "Friend" %>
+
 <div class="text-center py-5">
-  <h1>Welcome, Sally!</h1>
+  <h1>Welcome, <%= email %>!</h1>
   <h3 class="mb-3 text-gray">Let's make a shake</h3>
   <%= link_to("Make a new shake", new_shake_path, class: "btn btn-cream my-2") %>
   <%= link_to("Use one of your saved shakes", shakes_path, class: "btn btn-gray my-2") %>
